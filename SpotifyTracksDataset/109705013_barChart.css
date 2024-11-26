@@ -1,0 +1,84 @@
+:root {
+    --width: 1680px;
+    --height: 420px;
+}
+    
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+    
+svg {
+    width: var(--width);
+    height: var(--height);
+}
+  
+#menus {
+    font-size: 20px;
+    width: var(--width);
+    text-align: center;
+}
+  
+#menus select {
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+  
+.tick text {
+    font-size: 1.7em;
+    fill: #635F5D;
+}
+  
+.tick line {
+    stroke: #C0C0BB;
+}
+  
+.axis-label {
+    font-size: 2.3em;
+    fill: #8E8883;
+}
+  
+circle {
+    opacity: 0.8;
+}
+  
+#legend{
+    --height: 52px
+}
+  
+.legend-label {
+    fill: black;
+}
+  
+#slider {
+    --height: 100px;
+}
+  
+#number-data {
+    width: var(--width);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+  
+#rectTooltip {
+    height: 120px;
+    fill: #000;  
+    stroke: #4fb9b5;
+    stroke-width: 3px;
+    pointer-events: none;
+    opacity: 0.5;
+}
+  
+#textTooltip {
+    fill: #f2a412;
+    font-size: 18px;
+    align-content: center;
+    pointer-events: none;
+}
+  
+#menu-link{
+    font-size: 1.3rem;
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+body {
+    font: 10px sans-serif;
+  }
+  
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  
+  .bar {
+    fill: steelblue;
+  }
+  
+  .x.axis path {
+    display: none;
+  }
+  
+  .tooltip{
+    text-anchor: middle;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    fill:black; 
+  }
+  
+  label {
+    position: absolute;
+    top: 222px;
+    left: 1400px;
+    font-size: 15px;
+    color: #D8D8D8;
+  }
+
+  select {
+    position: absolute;
+    top: 250px;
+    left: 1400px;
+    color: #D8D8D8;
+  }

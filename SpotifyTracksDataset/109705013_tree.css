@@ -1,0 +1,70 @@
+:root {
+    --width: 1680px;
+    --height: 420px;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+}
+  
+.node text {
+    font: 9px sans-serif;
+    font-weight: bold;
+}
+  
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
+  
+#enter-box {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+  
+#num-song {
+    width: 50px;
+    text-align: center;
+}
+  
+#column {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+#column-artist{
+    margin-left: 240px;
+}
+  
+#column-album{
+    margin-left: 125px;
+}
+  
+#column-track{
+    margin-left: 120px;
+}
+  
+#rectTooltip {
+    height: 90px;
+    fill: #000;  
+    stroke: #4fb9b5;
+    stroke-width: 3px;
+    pointer-events: none;
+    opacity: 0.5;
+}
+  
+#textTooltip {
+    fill: #f2a412;
+    font-size: 18px;
+    align-content: center;
+    pointer-events: none;
+}
+  
+#menu-link{
+    font-size: 1.3rem;
+    font-weight: bold;
+}

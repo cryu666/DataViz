@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Collapsible Tree using Spotify Tracks Dataset</title>
+		<link rel="stylesheet" href="109705013_tree.css">
+		<script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
+	</head>
+	<body>
+		<div id="enter-box">
+			<h3>Top 10 artists with at least
+			<input type="text" id="num-song" name="num-song" value="1"> songs in dataset</h3> <span>(Enter a number from 1 to 100)</span>
+			<button onclick="set_num_song_filter()">Enter</button>
+		</div>
+		<p id="column">
+			<span id="column-artist">Artist</span>
+			<span id="column-album">Album</span>
+			<span id="column-track">Track</span>
+		</p>
+		<script src="109705013_tree.js"></script>
+		<A id="menu-link" HREF="109705013.html">Back to menu</A>
+	</body>
+</html>
